@@ -7,6 +7,7 @@ import { ListGroup, ListGroupItem, Button } from 'reactstrap';
 export const UserList = () => {
   const { users } = useContext(GlobalContext);
   console.log(users);
+  console.log("hello")
   return (
     <ListGroup className="mt-4">
       {users.map((user) => (
